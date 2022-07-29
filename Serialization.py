@@ -40,7 +40,8 @@ def mini_figth():
 
     print('por favor escriba un comando valido:\n'
           '- atacar <==> hit\n'
-          # '- bloquear <==> blq\n'
+          '- bloquear <==> blq\n'
+          '- curarte <==> heal\n'
           '- salir del programa <==> q')
     user_command = input()
 
@@ -90,45 +91,6 @@ def enemy_dodge():
         enemy_ia()
 
 
-# def ramdon_number():
-#     global ram_command
-#
-#     print(ram_command)
-#     count = [int]
-#     if ram_command == 1:
-#         count = count + 1
-#         if count == 2:
-#             ram_command = 3
-#
-#     elif ram_command == 2:
-#         count = count + 1
-#         if count == 2:
-#             ram_command = 1
-#
-#     elif ram_command == 3:
-#         count = count + 1
-#         if count == 2:
-#             ram_command = 2
-#
-#     return ram_command
-
-
-# def times_to_dodge():
-#     can_dodge = random.randint(0, 1)
-#     count = 0
-#     if can_dodge == 1:
-#         count = count + 1
-#         if count == 2:
-#             can_dodge == 1
-#
-#     elif can_dodge == 0:
-#         count = count + 1
-#         if count == 2:
-#             can_dodge == 1
-#
-#     return can_dodge
-
-
 def enemy_ia():
 
     global ram_command
@@ -175,15 +137,3 @@ mini_figth()
 #
 # print(user)
 
-# elif user_command == 'blq':
-#     print('Bloqueas con tus brazos. (reduccion de daño 3)' + f'(tu vida actual: {user2.pv}')
-#     user3.dmg = user3.dmg - 3
-#     user2.pv = user2.pv - user3.dmg
-#
-#     if user3.pv == 0:
-#         print(user3.name + ' Ha sido derrotado' + f'(tu vida actual: {user2.pv}')
-#         quit(0)
-#
-#     print('uff!, menos mal!!' + f'(tu vida actual: {user2.pv}')
-#
-#     user_command = input()
