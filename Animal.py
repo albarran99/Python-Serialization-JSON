@@ -1,12 +1,14 @@
 
 
 class Monsters:
-    def __init__(self, name: str, human_age: int, place: str, elemental_attack: str):
+    def __init__(self, name: str, human_age: int, place: str, elemental_attack: str, pv: int, dmg: int):
 
         self.name = name
         self.human_age = human_age
         self.place = place
         self.elemental_attack = elemental_attack
+        self.dmg = dmg
+        self.pv = pv
 
 
 def say_hello_animals(monster):

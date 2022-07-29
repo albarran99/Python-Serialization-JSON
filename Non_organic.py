@@ -1,13 +1,16 @@
 from typing import Any, Dict
+from Animal import Monsters
 
 
 class Bionicle:
-    def __init__(self, name: str, human_age: int, place: str, skill: str):
+    def __init__(self, name: str, human_age: int, place: str, skill: str, pv: int, dmg: int):
 
         self.name = name
         self.human_age = human_age
         self.place = place
         self.skill = skill
+        self.dmg = dmg
+        self.pv = pv
 
 
 def say_hello_nonOrganic(bionicle):
