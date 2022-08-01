@@ -7,8 +7,8 @@ class Monsters:
         self.human_age = human_age
         self.place = place
         self.elemental_attack = elemental_attack
-        self.dmg = dmg
         self.pv = pv
+        self.dmg = dmg
 
 
 def say_hello_animals(monster):

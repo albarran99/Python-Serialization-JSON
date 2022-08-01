@@ -5,7 +5,7 @@ from Person import say_hello, Humans
 from Non_organic import say_hello_nonOrganic, Bionicle
 from Animal import say_hello_animals, Monsters
 
-character_1 = Humans('Saytama', 22, 'Japan', 'O+')
+character_1 = Humans('Saytama', 22, 'Japan', 20, 4)
 character_2 = Bionicle('Vezon', 16, 'Voya nui', 'teletransporte', 20, 4)
 character_3 = Monsters('Rathalos', 17, 'Japan', 'llamas', 20, 4)
 character_4 = Monsters('Zinogre', 12, 'Japan', 'truenos', 20, 4)
