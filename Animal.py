@@ -1,5 +1,3 @@
-
-
 class Monsters:
     def __init__(self, name: str, human_age: int, place: str, elemental_attack: str, pv: int, dmg: int):
 

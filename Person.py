@@ -1,6 +1,3 @@
-from typing import Any, Dict
-
-
 class Humans:
     def __init__(self, name: str, age: int, place: str, pv: int, dmg: int) -> None:
 
@@ -15,11 +12,3 @@ def say_hello(user):
     print('Hola mi nombre es ' + user.name)
     print('Tengo ' + str(user.age) + ' años humanos')
     print('Soy de ' + user.place)
-
-
-# def user_from_dict(s: Dict[str, Any]) -> Humans:
-#     return Humans(**s)
-#
-#
-# def user_to_dict(x: Humans) -> Dict[str, Any]:
-#     return vars(x)

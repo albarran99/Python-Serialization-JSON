@@ -1,7 +1,3 @@
-from typing import Any, Dict
-from Animal import Monsters
-
-
 class Bionicle:
     def __init__(self, name: str, human_age: int, place: str, skill: str, pv: int, dmg: int):
 
